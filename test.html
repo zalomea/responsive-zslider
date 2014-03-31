@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+body{
+	margin:0;
+	padding:0;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="responsive.zslider.min.css">
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<div id="slider">
+	<div style="text-align:center;height:1000px;background:#f00">Esto es un texto de prueba</div>
+	<div><a href="http://ahiva.es/" target="_blank"><img src="ahiva.png"></a></div>
+	<div style="text-align:center;height:1000px;background:#f00">Esto es un texto de prueba con <a href="http://gomenza.es" target="_blank">link</a>.</div>
+	<img class="base baseslider" src="base.png">
+</div>
+<script src="responsive.zslider.min.js"></script>
+<script type="text/javascript">
+	ResponsiveZSlider({
+		'buttons' : true,
+		//'timeout' : 3000,
+		//'fadetime' : 2000
+	});
+</script>
+</body>
+</html>
